@@ -31,7 +31,7 @@ The tenant must provide the below:
 
 ```
       - name: Sync
-        uses: UKHomeOffice/core-cloud-static-sites-action@main
+        uses: Home-Office-Digital/core-cloud-static-sites-action@main
         with:
           assume-role-arn: ${{ vars.role-arn }}
           cloudfront-distribution: ${{ vars.cloudfront-distribution }}
