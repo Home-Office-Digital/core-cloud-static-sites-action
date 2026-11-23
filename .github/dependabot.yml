@@ -1,4 +1,9 @@
 version: 2
+# Labels are intentionally not set. Dependabot then applies its defaults: a
+# "dependencies" label, an ecosystem label, and the matching SemVer label
+# (major/minor/patch) when those labels exist in the repository. Hardcoding
+# "patch" here would add a second SemVer label to minor/major updates and fail
+# the SemVer label check.
 updates:
     # Enable Github Action updates
     - package-ecosystem: "github-actions"
