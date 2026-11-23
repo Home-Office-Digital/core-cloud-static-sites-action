@@ -7,10 +7,6 @@ updates:
           interval: "daily"
       commit-message:
           prefix: "chore(GHA)"
-      labels:
-          - "dependencies"
-          - "patch"
-          - "actions"
       groups:
           # One group for everything, majors included, since an action
           # major is usually just a runtime bump
